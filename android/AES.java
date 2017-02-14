@@ -68,13 +68,16 @@ public class AES {
         return encrypted;
     }
 
+
     /**
      * Sample encryption key = [1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6]
      * Sample initialization vector = [1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6]
      * @param encryptionKey
      * @param initializationVector
-     * @param inputFilePath
-     * @param outputFilePath
+     * @param inputFilePath : Path to file encrypted with node app
+     * @param outputFilePath : Path to decrypted file
+     *
+     * TODO: call this method to decrypt an ecrypted file
      *
      * @return decrypted file
      */
