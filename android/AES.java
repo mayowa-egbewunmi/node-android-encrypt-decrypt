@@ -1,5 +1,3 @@
-package com.softcom.npdn.encryption;
-
 /**
  * Created by mayowa on 2/13/17.
  */
