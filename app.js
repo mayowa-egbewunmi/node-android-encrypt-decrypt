@@ -74,5 +74,6 @@ function doDecryption(inputPath, outputPath, callback){
     });
 }
 
-encryptThenDecrypt('/Users/mayowa/Documents/npvn-content/video.mp4', '/Users/mayowa/Documents/npvn-content/encrypted.video.dat', '/Users/mayowa/Documents/npvn-content/output.video.mp4');
+//TODO: uncomment and use the desired file locations
+//encryptThenDecrypt('/Users/x-man/Documents/video.mp4', '/Users/x-man/Documents/encrypted.video.dat', '/Users/x-man/Documents/output.video.mp4');
 
